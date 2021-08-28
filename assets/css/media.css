@@ -1,0 +1,164 @@
+/*************************************************************************/
+
+@media(max-width: 359.98px){
+    /*******************************************/
+    .nav{
+        height: auto;
+    }
+    .nav .right__hidden li{
+        display: block;
+    }
+    .nav .links li{
+        width: 100% ;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;   
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .right__hidden a:hover .nav{
+           height: 25rem
+       }
+    .header{
+        height: auto;
+    }
+    .main__content{
+        width:100%;
+        margin:2rem 0;
+    }
+   
+    .main__header{
+        height: 100vh
+    }
+    .main .form{
+        display: none;
+    }
+    /********************************************/
+    section.social__media{
+        /* flex-wrap: wrap; */
+        text-align: center;
+    }
+    .social__content{
+        width: 100%;
+    }
+    .social__icons{
+        width: 100%;
+    }
+    .social__icons i {
+        font-size: 2rem;
+        width: 3rem;
+    }
+    /*****************************************/
+    .main__transition__effect{
+        padding: 1rem 0;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+       
+    }
+    .transition__effect,.sub__list,.sub__list2,.contact__us .form{
+        /* flex-wrap: wrap; */
+        padding: 0 0.5rem;
+        width: 100%;
+        
+    }
+    .transition__effect .one{
+        width: 35%
+        
+    }
+    
+    .transition__effect ul li{
+        width: 5rem;
+
+    }
+    .transition__effect .two{
+        width: 60%;
+        margin: 0 0.1rem;
+    }
+    .transition__effect .three{
+    width: 100%;
+    margin-top: 1rem ;
+    }
+    /*********************************/
+    .sub__list,.sub__list2{
+    margin:0 auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1rem;
+    }
+    .left__sub__list,
+    .right__sub__list,
+    .right__sub__list2,
+    .left__sub__list2,
+    .contact__us .form .right__form,
+    .contact__us .form .left__form{
+        width: 100%;
+        margin: 0.5rem auto;
+        
+    }
+   
+    .right__sub__list,
+    .left__sub__list2,
+    .transition__effect{
+        /* text-align: justify; */
+        word-wrap: break-word;
+    }
+    /*********************************************/
+    .why__awsome,
+    .why__awsome__other,
+    .What__customer,
+    .contact__us{
+        padding: 1rem;
+
+    }
+    .why__awsome__other .card,
+    .why__awsome .card,
+    .What__customer .card{
+        width: 100%;
+        margin: 0.5rem auto;
+    }
+    /********************************************/
+    .stylish__axure ,.main__content{
+        font-size: 0.9rem;
+    }
+    /*********************************************/
+    .form input[type="button"]{
+        width: 100% !important;
+        display: block;
+    }
+    .contact__us .form .left__form,
+    .contact__us .form .right__form{
+        width: 100%;
+    }
+    /****************************************/
+}
+
+
+        
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 360px) and (max-width: 575.98px) {
+
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+} 
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
